@@ -78479,9 +78479,11 @@ P.a2(n)
 if(a8!=null){a7.toString
 e=P.et(a7,null)
 d=!a9||!1
+a1.toString
 c=P.as(["name",b3,"actDescription",a6,"bas64Image",a8,"imageType","PNG","dayDate",a5,"theTime",b4,"actDuration",e,"isOnline",a9,"isAdress",d,"city",a3,"location",b2,"locLatitude",b0,"locLongitude",b1,"howToFind",null,"orgaNote",null,"capactiy",P.et(a1,null),"category",a2,"organizerDetails",f],t.N,t.X)}else{a7.toString
 e=P.et(a7,null)
 d=!a9||!1
+a1.toString
 c=P.as(["name",b3,"actDescription",a6,"dayDate",a5,"theTime",b4,"actDuration",e,"isOnline",a9,"isAdress",d,"city",a3,"location",b2,"locLatitude",b0,"locLongitude",b1,"howToFind",null,"orgaNote",null,"capactiy",P.et(a1,null),"category",a2,"organizerDetails",f],t.N,t.X)}l=c
 P.a2(P.ol(l))
 q=5
@@ -79161,7 +79163,7 @@ $0:function(){var s=this
 E.ng(!0,new F.alE(s.a,s.c,s.d),s.b,null,!0,t.H)},
 $S:0}
 F.alE.prototype={
-$1:function(a){var s=null,r=L.ah("Select a duration period",s,s,s,s,s,s,s),q=M.ag(s,new Q.qC($.aSm,"participants",s),C.h,s,s,s,s,s,s,s,s,s,this.b*0.35)
+$1:function(a){var s=null,r=L.ah("Select no of participants",s,s,s,s,s,s,s),q=M.ag(s,new Q.qC($.aSm,"participants",s),C.h,s,s,s,s,s,s,s,s,s,this.b*0.35)
 return new F.jE(E.Za(H.a([U.pa(L.ah("Done",s,s,s,A.aW(s,s,$.b5(),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s),s,s,s),new F.alx(this.a,a,this.c),s)],t.p),q,r),new F.aly(),s)},
 $S:92}
 F.aly.prototype={
@@ -79222,7 +79224,7 @@ p=C.jY.i(g)
 o=f.f.a.a
 n=h.b
 m=n.r
-l=f.y.a.a
+l=n.y
 k=n.x
 j=n.Q
 n=n.z
@@ -80202,7 +80204,9 @@ s=r.d
 if(s==="duration"){s=this.b
 s.x=J.bm(r.c[a].split(" ")[0])
 s.V()}else if(s==="participants"){s=this.b
-s.y=r.c[a]
+r=r.c[a]
+s.y=r
+P.a2(r)
 s.V()}},
 $S:6}
 Q.am6.prototype={
