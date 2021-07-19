@@ -77618,7 +77618,7 @@ m=null
 p=4
 k=t.N
 s=7
-return P.M(G.aSo(P.jA(i),P.at(["Authorization","Token "+H.c(d)],k,k)),$async$uv)
+return P.M(G.aSo(P.jA(i),P.at(["Authorization","Token "+H.c(d),"Content-type","application/json","accept","application/json"],k,k)),$async$uv)
 case 7:m=f
 p=2
 s=6
