@@ -79527,12 +79527,11 @@ l&=255
 m=P.aj(m,h,g,l)
 f=K.fE(new P.bv(4,4))
 e=a3.b
-d=e.b.length
-e=e.id
-e.toString
+d=e.id
+e=d==null?n:n*(e.b.length/d)
 l=H.a([k,P.aj(C.d.ba(127.5),h,g,l)],t.t_)
 g=a1*0.004
-return new T.a9(new V.R(q,a0,q,a0),T.aY(H.a([p,j,new T.a9(C.A0,M.ag(b,T.aX(H.a([M.ag(b,b,C.h,b,b,new S.b0(b,b,b,K.fE(new P.bv(4,4)),b,new T.oi(C.wT,C.lZ,C.db,l,b,b),C.E),b,o,b,b,b,b,n*(d/e))],i),C.q,C.m,C.k,b),C.h,b,b,new S.b0(m,b,b,f,b,b,C.E),b,o,b,b,b,b,n),b),T.aD(b,o,b),T.aX(H.a([T.aY(H.a([L.ah("Participants so far",b,b,b,b,b,b,b),T.aD(b,g,b),L.ah(C.e.i(a3.b.b.length),b,b,b,A.aW(b,b,b,b,b,b,b,b,b,b,b,b,b,C.aR,b,b,!0,b,b,b,b,b,b,b),b,b,0.9)],i),C.aa,C.m,C.k),T.aY(H.a([L.ah("Max",b,b,b,b,b,b,b),T.aD(b,g,b),L.ah(J.bm(a3.b.id),b,b,b,A.aW(b,b,b,b,b,b,b,b,b,b,b,b,b,C.aR,b,b,!0,b,b,b,b,b,b,b),b,b,0.9)],i),C.jD,C.m,C.k)],i),C.q,C.dN,C.k,b)],i),C.aa,C.m,C.k),b)}}
+return new T.a9(new V.R(q,a0,q,a0),T.aY(H.a([p,j,new T.a9(C.A0,M.ag(b,T.aX(H.a([M.ag(b,b,C.h,b,b,new S.b0(b,b,b,K.fE(new P.bv(4,4)),b,new T.oi(C.wT,C.lZ,C.db,l,b,b),C.E),b,o,b,b,b,b,e)],i),C.q,C.m,C.k,b),C.h,b,b,new S.b0(m,b,b,f,b,b,C.E),b,o,b,b,b,b,n),b),T.aD(b,o,b),T.aX(H.a([T.aY(H.a([L.ah("Participants so far",b,b,b,b,b,b,b),T.aD(b,g,b),L.ah(C.e.i(a3.b.b.length),b,b,b,A.aW(b,b,b,b,b,b,b,b,b,b,b,b,b,C.aR,b,b,!0,b,b,b,b,b,b,b),b,b,0.9)],i),C.aa,C.m,C.k),T.aY(H.a([L.ah("Max",b,b,b,b,b,b,b),T.aD(b,g,b),L.ah(J.bm(a3.b.id),b,b,b,A.aW(b,b,b,b,b,b,b,b,b,b,b,b,b,C.aR,b,b,!0,b,b,b,b,b,b,b),b,b,0.9)],i),C.jD,C.m,C.k)],i),C.q,C.dN,C.k,b)],i),C.aa,C.m,C.k),b)}}
 B.ani.prototype={
 $0:function(){L.Jy(this.a).Gi()},
 $S:0}
