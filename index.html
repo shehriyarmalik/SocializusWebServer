@@ -14,9 +14,10 @@
   <base href="/">
 
   <meta charset="UTF-8">
-  <meta name="google-signin-client_id" content="338828353379-q1441g6pe01b3u0uvi3dmm2ooqtuid56.apps.googleusercontent.com">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
+  <meta name="google-signin-client_id" content="338828353379-q1441g6pe01b3u0uvi3dmm2ooqtuid56.apps.googleusercontent.com">
+
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,11 +29,16 @@
 
   <title>socializuseu</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTG6MlmkHSmhWwKdAd3pZYMOz6Nz2sNqk"></script>
 
 </head>
 <body>
+
   <!-- ADD THIS SCRIPT -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTG6MlmkHSmhWwKdAd3pZYMOz6Nz2sNqk"></script> -->
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTG6MlmkHSmhWwKdAd3pZYMOz6Nz2sNqk&libraries=places&callback=initMap">
+</script>
+
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -64,7 +70,7 @@
 
 
   <script>
-    var serviceWorkerVersion = '2881561347';
+    var serviceWorkerVersion = '7739878';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
