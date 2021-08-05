@@ -1,6 +1,6 @@
 {
     "Home":"Home",
-    "Login":"Login",
+    "Login":"Login/Sign Up",
     "Create an Activity":"Create an Activity",
     "Activity name":"Activity name",
     "Enter name":"Enter name",
@@ -34,7 +34,7 @@
     "About you":"About you",
     "Language":"Language",
     "Gender":"Gender",
-    "Hobbies":"Hobbies",
+    "Hobbies":"What are you looking for?",
     "Select gender":"Select gender",
     "Select a hobby":"Select a hobby",
     "Create an activity with the same template":"Create an activity with the same template",
